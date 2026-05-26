@@ -1,0 +1,24 @@
+{
+  "name": "acquisitions-api",
+  "version": "1.0.0",
+  "description": "acquisitionAPI",
+  "homepage": "https://github.com/ASHEZ-ERA/Acquisitions-API#readme",
+  "bugs": {
+    "url": "https://github.com/ASHEZ-ERA/Acquisitions-API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASHEZ-ERA/Acquisitions-API.git"
+  },
+  "license": "ISC",
+  "author": "Dawood Ashraf",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
