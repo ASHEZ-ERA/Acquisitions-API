@@ -58,7 +58,7 @@ export const signIn = async (req, res, next) => {
     if (!validationResult.success) {
       return res.status(400).json({
         error: 'Validation failed',
-        details: formatValidationError(validationResult.error),
+        details: formatValidationErrors(validationResult.error),
       });
     }
 

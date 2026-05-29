@@ -17,7 +17,7 @@ export const authenticateToken = (req, res, next) => {
 
     logger.info(`User authenticated: ${decoded.email} (${decoded.role})`);
     next();
-  } catch (error) { {
+  } catch (error) { 
     logger.error('Authentication error:', error);
 
     if (error.message === 'Failed to authenticate token') {
@@ -63,4 +63,4 @@ export const requireRole = allowedRoles => {
       });
     }
   };
-}};
+};
